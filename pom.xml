@@ -12,18 +12,18 @@
         <module>rdbms</module>
         <module>clickhouse</module>
         <module>db2</module>
-        <module>dm</module>
+        <!--<module>dm</module>-->
         <module>es5</module>
         <module>es</module>
         <module>es7</module>
-        <module>gbase</module>
-        <module>greenplum6</module>
+        <!--<module>gbase</module>-->
+        <!--<module>greenplum6</module>-->
         <module>hbase</module>
         <module>hdfs</module>
         <module>hive</module>
         <module>hive1</module>
         <module>hive3</module>
-        <module>impala</module>
+        <!--<module>impala</module>-->
         <module>kudu</module>
         <module>kylin</module>
         <module>libra</module>
@@ -40,26 +40,26 @@
         <module>ftp</module>
         <module>kafka</module>
         <module>emq</module>
-        <module>phoenix5</module>
+        <!--<module>phoenix5</module>-->
         <module>hbase2</module>
         <module>spark</module>
-        <module>kingbase8</module>
+        <!--<module>kingbase8</module>-->
         <module>common</module>
         <module>kerberos</module>
         <module>hbase_gateway</module>
-        <module>s3</module>
+        <!--<module>s3</module>-->
         <module>websocket</module>
-        <module>vertica</module>
+        <!--<module>vertica</module>-->
         <module>socket</module>
         <module>presto</module>
-        <module>oceanbase</module>
+        <!--<module>oceanbase</module>-->
         <module>aws_s3</module>
         <module>solr</module>
-        <module>inceptor</module>
+        <!--<module>inceptor</module>-->
         <module>influxdb</module>
         <module>opentsdb</module>
         <module>doris</module>
-        <module>phoenix4_8</module>
+        <!--<module>phoenix4_8</module>-->
         <module>test</module>
         <module>kylinrestful</module>
         <module>restful</module>
@@ -68,10 +68,10 @@
         <module>tbds_hbase</module>
         <module>tbds_kafka</module>
         <module>tbds_hdfs</module>
-        <module>hive3_cdp</module>
+        <!--<module>hive3_cdp</module>-->
         <module>sap_hana</module>
-        <module>huawei_hbase</module>
-        <module>huawei_kafka</module>
+        <!--<module>huawei_hbase</module>-->
+        <!--<module>huawei_kafka</module>-->
     </modules>
     <packaging>pom</packaging>
 
