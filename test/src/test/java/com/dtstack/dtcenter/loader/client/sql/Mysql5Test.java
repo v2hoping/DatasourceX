@@ -79,7 +79,7 @@ public class Mysql5Test extends BaseTest {
      */
     @Test
     public void getTableListBySchema_001() {
-        SqlQueryDTO queryDTO = SqlQueryDTO.builder().schema("test").build();
+        SqlQueryDTO queryDTO = SqlQueryDTO.builder().schema("hoping").build();
         List<String> tableList = client.getTableListBySchema(source, queryDTO);
         Assert.assertTrue(CollectionUtils.isNotEmpty(tableList));
     }
@@ -96,7 +96,7 @@ public class Mysql5Test extends BaseTest {
 
     @Test
     public void getColumnMetaData_0001() {
-        SqlQueryDTO queryDTO = SqlQueryDTO.builder().schema("test").tableName("demo").build();
+        SqlQueryDTO queryDTO = SqlQueryDTO.builder().schema("hoping").tableName("LOADER_TEST").build();
         List<ColumnMetaDTO> columnMetaData = client.getColumnMetaData(source, queryDTO);
         Assert.assertTrue(CollectionUtils.isNotEmpty(columnMetaData));
     }
@@ -186,7 +186,7 @@ public class Mysql5Test extends BaseTest {
      */
     @Test
     public void getTableListBySchema() {
-        SqlQueryDTO queryDTO = SqlQueryDTO.builder().schema("dev").build();
+        SqlQueryDTO queryDTO = SqlQueryDTO.builder().schema("hoping").build();
         List<String> tableList = client.getTableListBySchema(source, queryDTO);
         Assert.assertTrue(CollectionUtils.isNotEmpty(tableList));
     }
@@ -291,7 +291,7 @@ public class Mysql5Test extends BaseTest {
      */
     @Test
     public void getTableBySchema () {
-        List tableListBySchema = client.getTableListBySchema(source, SqlQueryDTO.builder().schema("dev").tableNamePattern("").limit(5).build());
+        List tableListBySchema = client.getTableListBySchema(source, SqlQueryDTO.builder().schema("hoping").tableNamePattern("").limit(5).build());
         Assert.assertTrue(CollectionUtils.isNotEmpty(tableListBySchema));
     }
 
@@ -308,11 +308,11 @@ public class Mysql5Test extends BaseTest {
 
     @Test
     public void isDatabaseExists() {
-       assert  client.isDatabaseExists(source, "dev");
+       assert  client.isDatabaseExists(source, "hoping");
     }
     @Test
     public void isTableExistsInDatabase() {
-       assert  client.isTableExistsInDatabase(source, "LOADER_TEST","dev");
+       assert  client.isTableExistsInDatabase(source, "LOADER_TEST","hoping");
     }
 
     /**
@@ -320,7 +320,7 @@ public class Mysql5Test extends BaseTest {
      */
     @Test
     public void tableListNotView() {
-        List tableListBySchema = client.getTableListBySchema(source, SqlQueryDTO.builder().schema("dev").tableNamePattern("").limit(5).build());
+        List tableListBySchema = client.getTableListBySchema(source, SqlQueryDTO.builder().schema("hoping").tableNamePattern("").limit(5).build());
         Assert.assertFalse(tableListBySchema.contains("LOADER_TEST_VIEW"));
     }
 
@@ -329,7 +329,7 @@ public class Mysql5Test extends BaseTest {
      */
     @Test
     public void tableListContainView() {
-        List tableListBySchema = client.getTableListBySchema(source, SqlQueryDTO.builder().schema("dev").tableNamePattern("").view(true).limit(5).build());
+        List tableListBySchema = client.getTableListBySchema(source, SqlQueryDTO.builder().schema("hoping").tableNamePattern("").view(true).limit(5).build());
         Assert.assertTrue(tableListBySchema.contains("LOADER_TEST_VIEW"));
     }
 
