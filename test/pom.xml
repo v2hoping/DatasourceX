@@ -66,12 +66,12 @@
             <scope>provided</scope>
         </dependency>
 
-        <dependency>
-            <groupId>com.dtstack.dtcenter</groupId>
-            <artifactId>common.loader.dm</artifactId>
-            <version>${project.version}</version>
-            <scope>provided</scope>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>com.dtstack.dtcenter</groupId>-->
+            <!--<artifactId>common.loader.dm</artifactId>-->
+            <!--<version>${project.version}</version>-->
+            <!--<scope>provided</scope>-->
+        <!--</dependency>-->
 
         <dependency>
             <groupId>com.dtstack.dtcenter</groupId>
@@ -87,19 +87,19 @@
             <scope>provided</scope>
         </dependency>
 
-        <dependency>
-            <groupId>com.dtstack.dtcenter</groupId>
-            <artifactId>common.loader.gbase</artifactId>
-            <version>${project.version}</version>
-            <scope>provided</scope>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>com.dtstack.dtcenter</groupId>-->
+            <!--<artifactId>common.loader.gbase</artifactId>-->
+            <!--<version>${project.version}</version>-->
+            <!--<scope>provided</scope>-->
+        <!--</dependency>-->
 
-        <dependency>
-            <groupId>com.dtstack.dtcenter</groupId>
-            <artifactId>common.loader.greenplum6</artifactId>
-            <version>${project.version}</version>
-            <scope>provided</scope>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>com.dtstack.dtcenter</groupId>-->
+            <!--<artifactId>common.loader.greenplum6</artifactId>-->
+            <!--<version>${project.version}</version>-->
+            <!--<scope>provided</scope>-->
+        <!--</dependency>-->
         <dependency>
             <groupId>com.dtstack.dtcenter</groupId>
             <artifactId>common.loader.hbase</artifactId>
@@ -149,19 +149,19 @@
             <scope>provided</scope>
         </dependency>
 
-        <dependency>
-            <groupId>com.dtstack.dtcenter</groupId>
-            <artifactId>common.loader.impala</artifactId>
-            <version>${project.version}</version>
-            <scope>provided</scope>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>com.dtstack.dtcenter</groupId>-->
+            <!--<artifactId>common.loader.impala</artifactId>-->
+            <!--<version>${project.version}</version>-->
+            <!--<scope>provided</scope>-->
+        <!--</dependency>-->
 
-        <dependency>
-            <groupId>com.dtstack.dtcenter</groupId>
-            <artifactId>common.loader.inceptor</artifactId>
-            <version>${project.version}</version>
-            <scope>provided</scope>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>com.dtstack.dtcenter</groupId>-->
+            <!--<artifactId>common.loader.inceptor</artifactId>-->
+            <!--<version>${project.version}</version>-->
+            <!--<scope>provided</scope>-->
+        <!--</dependency>-->
 
         <dependency>
             <groupId>com.dtstack.dtcenter</groupId>
@@ -177,12 +177,12 @@
             <scope>provided</scope>
         </dependency>
 
-        <dependency>
-            <groupId>com.dtstack.dtcenter</groupId>
-            <artifactId>common.loader.kingbase8</artifactId>
-            <version>${project.version}</version>
-            <scope>provided</scope>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>com.dtstack.dtcenter</groupId>-->
+            <!--<artifactId>common.loader.kingbase8</artifactId>-->
+            <!--<version>${project.version}</version>-->
+            <!--<scope>provided</scope>-->
+        <!--</dependency>-->
 
         <dependency>
             <groupId>com.dtstack.dtcenter</groupId>
@@ -233,12 +233,12 @@
             <scope>provided</scope>
         </dependency>
 
-        <dependency>
-            <groupId>com.dtstack.dtcenter</groupId>
-            <artifactId>common.loader.oceanbase</artifactId>
-            <version>${project.version}</version>
-            <scope>provided</scope>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>com.dtstack.dtcenter</groupId>-->
+            <!--<artifactId>common.loader.oceanbase</artifactId>-->
+            <!--<version>${project.version}</version>-->
+            <!--<scope>provided</scope>-->
+        <!--</dependency>-->
 
         <dependency>
             <groupId>com.dtstack.dtcenter</groupId>
@@ -254,12 +254,12 @@
             <scope>provided</scope>
         </dependency>
 
-        <dependency>
-            <groupId>com.dtstack.dtcenter</groupId>
-            <artifactId>common.loader.phoenix5</artifactId>
-            <version>${project.version}</version>
-            <scope>provided</scope>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>com.dtstack.dtcenter</groupId>-->
+            <!--<artifactId>common.loader.phoenix5</artifactId>-->
+            <!--<version>${project.version}</version>-->
+            <!--<scope>provided</scope>-->
+        <!--</dependency>-->
 
         <dependency>
             <groupId>com.dtstack.dtcenter</groupId>
@@ -289,12 +289,12 @@
             <scope>provided</scope>
         </dependency>
 
-        <dependency>
-            <groupId>com.dtstack.dtcenter</groupId>
-            <artifactId>common.loader.s3</artifactId>
-            <version>${project.version}</version>
-            <scope>provided</scope>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>com.dtstack.dtcenter</groupId>-->
+            <!--<artifactId>common.loader.s3</artifactId>-->
+            <!--<version>${project.version}</version>-->
+            <!--<scope>provided</scope>-->
+        <!--</dependency>-->
 
         <dependency>
             <groupId>com.dtstack.dtcenter</groupId>
@@ -331,12 +331,12 @@
             <scope>provided</scope>
         </dependency>
 
-        <dependency>
-            <groupId>com.dtstack.dtcenter</groupId>
-            <artifactId>common.loader.vertica</artifactId>
-            <version>${project.version}</version>
-            <scope>provided</scope>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>com.dtstack.dtcenter</groupId>-->
+            <!--<artifactId>common.loader.vertica</artifactId>-->
+            <!--<version>${project.version}</version>-->
+            <!--<scope>provided</scope>-->
+        <!--</dependency>-->
 
         <dependency>
             <groupId>com.dtstack.dtcenter</groupId>

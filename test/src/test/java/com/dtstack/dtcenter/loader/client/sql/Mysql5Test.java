@@ -51,9 +51,9 @@ public class Mysql5Test extends BaseTest {
 
     // 构建数据源信息
     private static final Mysql5SourceDTO source = Mysql5SourceDTO.builder()
-            .url("jdbc:mysql://172.16.100.186:3306/dev")
-            .username("dev")
-            .password("Abc12345")
+            .url("jdbc:mysql://172.16.211.114:3306/hoping")
+            .username("root")
+            .password("oK?Al4rM3i")
             .poolConfig(PoolConfig.builder().build())
             .build();
 
